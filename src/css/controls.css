@@ -90,6 +90,10 @@
   background-image: url('../assets/icons/Rotate.svg');
 }
 
+.leaflet-pm-toolbar .leaflet-pm-icon-checkmark {
+  background-image: url('../assets/icons/Checkmark.svg');
+}
+
 .leaflet-buttons-control-button:hover,
 .leaflet-buttons-control-button:focus {
   cursor: pointer;
