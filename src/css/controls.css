@@ -97,6 +97,10 @@
   background-image: url('../assets/icons/Checkmark.svg');
 }
 
+.leaflet-pm-toolbar .leaflet-pm-icon-checkmark-blue {
+  background-image: url('../assets/icons/CheckmarkBlue.svg');
+}
+
 .leaflet-buttons-control-button:hover,
 .leaflet-buttons-control-button:focus {
   cursor: pointer;
@@ -192,4 +196,8 @@
 
 .leaflet-buttons-control-button.pm-disabled > .control-icon {
   filter: opacity(0.6);
+}
+
+.leaflet-pm-toolbar.blue-border {
+  border: 2px solid #0091FF;
 }
